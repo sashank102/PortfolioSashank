@@ -1,13 +1,13 @@
 'use client'
 
 import { useState } from 'react'
-import { Moon, Sun, Code, Server, Globe, Briefcase, Trophy, Mail, Phone, MapPin, Linkedin } from 'lucide-react'
+import { Code, Server, Globe, Briefcase, Trophy, Mail, Phone, MapPin, Linkedin } from 'lucide-react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { SiCplusplus, SiMysql, SiPython, SiTensorflow, SiKeras, SiPytorch, SiNumpy, SiPandas } from 'react-icons/si'
 import GitHubIcon from '@mui/icons-material/GitHub';
 export default function EnhancedPortfolio() {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode] = useState(false)
 
   const projects = [
     {
